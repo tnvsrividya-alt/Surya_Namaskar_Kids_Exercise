@@ -28,6 +28,8 @@
       max-width: 1200px;
       margin: auto;
       padding: 12px;
+      padding-right: 220px;
+      /* Dedicated gutter for fixed clock */
     }
 
     .split {
@@ -333,7 +335,7 @@
       margin-bottom: 4px;
       text-align: center;
       width: auto;
-      min-height: 40px;
+      min-height: 60px;
       /* Prevents jumping on transitions */
       display: flex;
       align-items: center;
@@ -349,7 +351,7 @@
       text-align: center;
       /* Centered */
       width: auto;
-      min-height: 25px;
+      min-height: 35px;
       /* Prevents jumping on transitions */
       display: flex;
       align-items: center;
@@ -381,7 +383,7 @@
 
 <body>
   <div id="indianTime"
-    style="position: fixed; bottom: 30px; right: 30px; font-family: 'Segoe UI', sans-serif; font-size: 48px; font-weight: 500; color: #000; background: rgba(255, 255, 255, 0.85); padding: 15px 30px; border-radius: 16px; backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.4); box-shadow: 0 12px 48px rgba(0,0,0,0.25); pointer-events: none; z-index: 1000; letter-spacing: 2px;">
+    style="position: fixed; bottom: 20px; right: 20px; font-family: 'Segoe UI', sans-serif; font-size: 48px; font-weight: 500; color: #000; background: rgba(255, 255, 255, 0.95); padding: 15px 30px; border-radius: 16px; backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.4); box-shadow: 0 12px 48px rgba(0,0,0,0.25); pointer-events: none; z-index: 1000; letter-spacing: 2px;">
   </div>
 
   <!-- SELECTION SCREEN -->
@@ -442,9 +444,9 @@
     </div>
 
     <!-- Exercise List Panel -->
-    <div style="max-width: 1200px; margin: auto; padding: 12px; width: 100%;">
+    <div style="max-width: 1200px; margin: auto; padding: 12px; width: 100%; padding-right: 220px;">
       <div
-        style="background: rgba(255, 255, 255, .92); padding: 45px; border-radius: 20px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.3); margin-bottom: 150px;">
+        style="background: rgba(255, 255, 255, .92); padding: 45px; border-radius: 20px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.3); margin-bottom: 24px;">
 
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px;">
