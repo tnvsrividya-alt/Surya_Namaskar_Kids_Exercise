@@ -1406,6 +1406,8 @@
       totalRounds.textContent = (s1 + f + s2);
       let tr = (s1 + f + s2);
       
+      masterCounter.textContent = "Round: " + r + " / " + tr;
+
       // Disable buttons if zero rounds
       startBtn.disabled = (tr === 0);
       stopBtn.disabled = (tr === 0);
@@ -1495,8 +1497,6 @@
       startBtn.textContent = finished ? "▶ Start Again" : "▶ Start";
       pauseBtn.style.display = "none";
       completionLabel.style.display = finished ? "block" : "none";
-
-      masterCounter.textContent = "Round: 1 / 30"; // Reset view
 
       // Clear all round progress markers
       pSlow1R.textContent = ""; pFastR.textContent = ""; pSlow2R.textContent = "";
